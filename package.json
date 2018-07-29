@@ -1,0 +1,25 @@
+{
+  "name": "canvasColor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://crossgit@github.com/crossgit/canvasColor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crossgit/canvasColor/issues"
+  },
+  "homepage": "https://github.com/crossgit/canvasColor#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "serve-static": "^1.13.2"
+  }
+}
