@@ -57,4 +57,10 @@ function drawImageData() {
     console.log(data, arr); // data 为灰度图,arr为缩略坐标的二维数组
     imagedata.data = data;
     ctx.putImageData(imagedata, 0, 0); // 生成一个预览
-} 
+}
+
+var DrawParticle = function () { }
+
+DrawParticle.prototype = {
+
+}
