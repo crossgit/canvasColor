@@ -61,7 +61,7 @@ function drawImageData() {
 
                 average = average < 150 ? 0 : 255; // 小于150的将定位黑色
                 // 数组
-                var arrValue = average == 0 ? 1 : 0;
+                var arrValue = average == 0 ? 1 : 0; 
                 var rnum = _rowNum / step;
                 if (Object.prototype.toString.call(arr[rnum]) != '[object Array]') {
                     arr[rnum] = new Array();
